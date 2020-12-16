@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* General Styles */
+/* ----------------- General Styles --------------------- */
  
 html {
   font-size: 16px;
@@ -97,31 +97,44 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e1e2ea;
 }
  
 ul, 
 ol {
  list-style-type: none;
+ text-transform: uppercase;
 }
  
 a {
   color: #e2e3ed;
   text-decoration: none;
 }
- 
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.75em;
+  line-height: 70px;
+  font-weight: normal;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
+  font-weight: normal;
+  line-height: 44px;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: normal;
+  line-height: 35px;
 }
  
 p {
-  
+  font-family: 'Open Sans', sans-serif;
 }
  
 img {
@@ -140,7 +153,71 @@ address {
  
 }
 
-/* CSS Layout Styles */
+aside .form {
+  margin-top: 30px;
+}
+
+aside {
+  background: #527158;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reviews {
+  background: #2a423a;
+}
+
+footer {
+  background: #202322;
+}
+
+/* ----------------- General Styles About Page ------------------ */
+
+.mission h1 {
+  font-size: 3em;
+}
+
+.contact h1 {
+  font-size: 3em;
+}
+
+/* ----------------- General Styles FAQ Page ------------------ */
+
+.faq h1 {
+  font-size: 3em;
+}
+
+.faq h4 {
+  font-size: 1.125em;
+}
+
+.faq p {
+  font-size: 1.125em;
+}
+
+
+
+/* -------------- CSS Layout Styles --------------- */
 
 .content-wrapper {
   width: 90%;
@@ -213,11 +290,14 @@ footer .social-icons p {
 
 footer p {
   margin: 0;
+  text-align: center;
 }
 
 footer .copyright {
   margin: 20px 0;
 }
+
+
 
 
 /* --------------- Mobile styles - Homepage --------------- */
@@ -542,7 +622,7 @@ footer .copyright {
 
 /* Hero */
 .hero-area h1 {
-  width: 60%;
+  width: 70%;
 }
 
 /* Aside */
