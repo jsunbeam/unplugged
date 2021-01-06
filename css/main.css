@@ -249,7 +249,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 
 .header-divider {
@@ -425,7 +425,7 @@ input[type=button] {
 
 .social i {
   font-size: 3em;
-
+}
 /* --------------- Mobile styles - About page --------------- */
 
 
@@ -435,6 +435,8 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
 }
+  
+
 
 .contact {
   display: flex;
@@ -447,12 +449,8 @@ input[type=button] {
   margin: 0;
 }
 
-.social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+
+
 
 /* --------------- Mobile styles - FAQ page --------------- */
 .faq {
@@ -693,9 +691,16 @@ footer .contact {
   flex-flow: column;
 }
 
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+
+}
+
 footer .copyright {
   width: 100%;
 }
+
 
 /* About Page */
 
@@ -744,6 +749,7 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 1200px) {
+
 .content-wrapper {
   max-width: 960px;
 }
